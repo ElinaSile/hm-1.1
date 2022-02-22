@@ -1,0 +1,199 @@
+body {
+  font-family: sans-serif, "Times New Roman", serif;
+  background: rgb(7, 7, 7);
+}
+
+/* INTRO SLIDE START */
+.intro {
+  height: 100vh;
+  color: white;
+  background: url(hands-ged3324eb6_1280.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* creates cool parallax scrolling effect */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  font-size: 35px;
+  text-shadow: 1px 1px #04034e;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dates {
+  color: #8cd3e9;
+  text-shadow: 1px 1px #04034e;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-description-1 {
+  margin-top: 180px;
+  text-shadow: 1px 1px #04034e;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.intro-description-2 {
+  text-align: center;
+  text-shadow: 1px 1px #04034e;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* INTRO SLIDE END */
+
+/* MIDDLE PART*/
+.middle-part {
+  background: linear-gradient(to top, #593de7, black);
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* BUTTONS */
+
+.button-1 {
+  background-color: #3968e9;
+  color: white;
+  font-size: 17px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 4px solid #2e0b6e;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button-1:hover {
+  background-color: white;
+  color: black;
+  transition: all 1s;
+}
+
+.button-2 {
+  background-color: #3968e9;
+  color: black;
+  font-size: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #2e0b6e;
+
+  padding: 2px 2px;
+}
+.button-2:hover {
+  background-color: rgb(187, 228, 154);
+  font-weight: bold;
+  color: rgb(68, 9, 204);
+  transition: all 0.5s;
+}
+
+/* LEARN MORE START */
+.learn-more {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+/* LEARN MORE END */
+/* FAQ START */
+.faq {
+  color: #9b355c;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.question-container {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.question {
+  font-size: 24px;
+  font-weight: bold;
+  color: #98da8f;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 19px;
+  color: white;
+}
+/* FAQ START */
+/* END of the MIDDLE PART*/
+
+/* END SECTIONS START */
+.end-section {
+  margin-top: 20px;
+  padding-left: 20px;
+
+  background: linear-gradient(to top, #593de7, black);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* creates cool parallax scrolling effect */
+
+  display: flex;
+  flex-direction: column;
+}
+/* QUOTE START */
+.quote-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  text-align: center;
+}
+
+.quote {
+  font-family: cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 20px;
+}
+/* QUOTE END */
+
+/* VIDEO START */
+.video-container {
+  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.video-heading {
+  color: white;
+  font-size: 25px;
+  border: 2px solid #4166e2;
+  margin-bottom: 20px;
+  padding: 5px 5px 5px 5px;
+  background: #030303;
+}
+
+.video-frame {
+  border: 0px;
+}
+/* VIDEO END */
+
+.footer {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
